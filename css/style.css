@@ -1,0 +1,65 @@
+.dropdown-menu {
+    background: None;
+    color: black;
+}
+.nav-link.dropdown-toggle {
+    color: #959696;
+}
+
+nav {
+    background-color: black;
+}
+
+.top1 {
+    background-image: linear-gradient(rgb(217, 219, 217, 0.3),rgb(217,219,217, 0.1));
+}
+
+.greeting-con {
+    white-space: nowrap;
+    text-overflow: nowrap;
+}
+
+.navbar a {
+    color: #959696;
+    font-family: 'Syne Mono', monospace;
+}
+
+.navbar a:hover{
+    color: #02e829;
+}
+
+.greeting {
+    color: black;
+    white-space: nowrap;
+}
+
+.navbar-nav .nav-link.active {
+    color: whitesmoke;
+}
+
+.top {
+    position: relative;
+    background-color: None;
+    font-family: 'Syne Mono', monospace;
+}
+
+.mid {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'IBM Plex Mono', monospace;
+    /*font-family: 'Syne Mono', monospace;*/
+}
+
+body {
+    /* The image used */
+    background-image: url("../images/bg.jpg");
+
+        /* Set a specific height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

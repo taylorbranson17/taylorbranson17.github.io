@@ -1,0 +1,58 @@
+.main {
+    background-image: url('../images/logo2.png');
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+}
+
+#logogr {
+    max-height: 30vh;
+}
+
+.btm {
+    height: 25vh;
+}
+
+.tabtxt {
+    display: inline-block;
+}
+
+
+
+.ind {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    list-style-type: "> //";
+}
+
+.skills {
+    list-style-image: url('../images/flame.png');
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+}
+
+.alertbox {
+    display: none;
+    z-index: -50;
+    background-color: rgb(0,0,0,0.6);
+}
+
+.ed {
+    max-width: 11rem;
+    display: inline;
+}
+
+.msu {
+    max-width: 15rem;
+}
+
+.footer {
+    background-color: transparent;
+}
+
+.modal-content {
+    background-color: rgb(71, 71, 71);
+    color: whitesmoke;
+}

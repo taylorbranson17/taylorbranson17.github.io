@@ -1,0 +1,43 @@
+.form-control {
+    background-color: rgb(111, 112, 111, 0.4);
+    color: whitesmoke;
+}
+
+.form-control::placeholder {
+    color: whitesmoke;
+}
+
+.form-control:focus {
+    background-color: black;
+    color: whitesmoke;
+    box-shadow: 0 0 5px 5px inset rgb(41, 128, 41);
+}
+
+.form-control:visited {
+    background-color: black;
+}
+
+body {
+    color: whitesmoke;
+}
+
+.top {
+    height: 25vh;
+}
+
+textarea {
+    width: 100%;
+}
+
+.main {
+    background-image: url("../images/blkwavy.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#collab {
+    font-family: 'Caveat', cursive;
+    font-size: 2.2rem;
+}

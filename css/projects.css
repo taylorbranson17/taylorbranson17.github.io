@@ -1,0 +1,38 @@
+#title {
+    color: whitesmoke;
+}
+
+.matrix {
+    background-image: linear-gradient(to right,black, 80%, transparent), url('../images/green.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body {
+    color: whitesmoke;
+}
+
+.pyimage {
+    max-height: 75px;
+}
+
+.top {
+    height: 30vh;
+}
+
+.card {
+    background: black;
+    cursor: pointer;
+    width: 20rem;
+    box-shadow: 0 0 10px 1px rgb(199, 199, 199, 0.5);
+    transition: transform 0.5s;
+}
+
+.python {
+    display: inline;
+}
+
+.figimg {
+    max-height: 120px!important;
+}

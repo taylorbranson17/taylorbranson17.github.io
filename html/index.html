@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>//Taylor Branson</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="../css/index_style.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body onload="setTimeout(typeWriter, 2000)">
+    <nav class="navbar sticky-top navbar-expand-md">
+        <div class="container top-nav mx-auto d-flex flex-row-reverse">
+            <a class="navbar-brand" href="about.html">Taylor Branson</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="menu-button">
+                    <iconify-icon icon="material-symbols:menu-rounded" style="color: white;"></iconify-icon>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="projects.html#python">Python</a></li>
+                            <li><a class="dropdown-item" href="projects.html#ux">UX Design</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container top1">
+        <div class="row top">
+            <div class="col-md-5 pl-3 d-flex align-items-end">
+                <div class="row pt-2 greeting-con">
+                    <h2 id="greeting"></h2>
+                    <h2 id="greeting2"></h2>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6 d-flex justify-content-center">
+                <img class="img-fluid mr-3 logo" src="../images/logo.png">
+            </div>
+        </div>
+        <div class="row mid">
+            <div class="col-md-6 py-2 pl-2">
+                <p class="text-monospace my-2">I'm an avid coder, web developer, UX designer, and communicator. In
+                    my free time I'm an adventurer, professional goofball, and musician. I love what I do, and get
+                    to do what I
+                    love. My focus is simple and straight forward; to make products and experiences that Inspire
+                    People, and do the things that Inspire me.</p>
+            </div>
+        </div>
+        <div class="row btm my-5">
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card my-2">
+                    <img class="card-img-top" src="../images/comput.jpg" alt="Card image cap">
+                    <div class="card-body" onClick="window.open('projects.html')">
+                        <h5 class="card-title">Projects</h5>
+                        <p class="card-text">An overview of some of the awesome projects I've been able to take part
+                            in.
+                        </p>
+                        <a href="projects.html" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card my-2">
+                    <img class="card-img-top" src="../images/team.jpg" alt="Card image cap">
+                    <div class="card-body" href="#">
+                        <h5 class="card-title">Resume</h5>
+                        <p class="card-text">A brief description of my skills/work history (if that's what you're
+                            into).
+                        </p>
+                        <a href="resume.html" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+                <div class="card my-2">
+                    <img class="card-img-top" src="../images/moutain.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">My Story</h5>
+                        <p class="card-text">A few fun facts, maybe a cool story or two- I'll let you know a little
+                            about myself and what I'm up to ;)</p>
+                        <a href="about.html" class="stretched-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="d-flex flex-row-reverse" href="../html/contact.html">
+                <div class="col-md-2 my-2">
+                    <span data-toggle="tooltip" data-placement="top" title="taylorbranson17">
+                        <iconify-icon class="icon m-1 img-fluid" icon="ph:instagram-logo-fill" style="color: #6e6d6b;"
+                            width="35px">
+                        </iconify-icon>
+                    </span>
+                    <span data-toggle="tooltip" data-placement="top" title="taylorbranson17">
+                        <iconify-icon class="icon m-1 img-fluid" icon="mdi:twitter" style="color: #6e6d6b;"
+                            width="35px">
+                        </iconify-icon>
+                    </span>
+                    <span data-toggle="tooltip" data-placement="top" title="taylorbranson17">
+                        <iconify-icon class="icon m-1 img-fluid" icon="uiw:linkedin" style="color: #6e6d6b;"
+                            width="35px">
+                        </iconify-icon>
+                    </span>
+                </div>
+                <div class="col-md-4 d-flex align-items-center justify-content-end pe-2">
+                    <h5>TaylorBranson17</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <script>
+        var el = document.getElementById('greeting')
+        var el2 = document.getElementById('greeting2')
+        var msg1 = 'Hi, I\'m Taylor.'
+        var msg2 = 'Welcome to my Portfolio.'
+        var speed = 110
+        i = 0
+        i2 = 0
+
+        function typeWriter() {
+            if (i < msg1.length) {
+                el.innerHTML += msg1.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+
+            } else if (i == msg1.length) {
+                if (i2 < msg2.length) {
+                    el2.innerHTML += msg2.charAt(i2)
+                    i2++;
+                    setTimeout(typeWriter, speed)
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

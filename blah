@@ -1,0 +1,29 @@
+<div class="card-deck">
+    <div class="card">
+        <img class="card-img-top" src="../images/comput.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Projects</h5>
+            <p class="card-text">An overview of some of the awesome projects I've been able to take part in.</p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="../images/team.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Resume</h5>
+            <p class="card-text">A brief description of my skills/work history (if that's what you're into).</p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img-top" src="../images/profile1.JPG" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">My Story</h5>
+            <p class="card-text">A few fun facts, maybe a cool story or two- I'll let you know a little about myself and what I'm up to ;)</p>
+        </div>
+    </div>
+</div>
+
+<iframe src="https://giphy.com/embed/AOSwwqVjNZlDO" width="480" height="303" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/code-AOSwwqVjNZlDO">via GIPHY</a></p>
+
+yahtzee link - https://github.com/taylorbranson17/-Kinda-Yahtzee-
+
+alien invasion link - https://github.com/taylorbranson17/Alien-Invasion

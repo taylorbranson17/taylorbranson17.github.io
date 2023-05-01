@@ -1,0 +1,58 @@
+/*index page specific css*/
+#greeting, #greeting2 {
+    display: block;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 0.75rem!important;
+}
+
+.greeting-con {
+  background-image: linear-gradient(to right, rgb(0,0,0,0.3), 30%, transparent);
+}
+
+.footer {
+    color: whitesmoke;
+}
+
+body {
+    /* The image used */
+  background-image: url("../images/bg.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.card {
+  background-color: rgb(0,0,0, 0.8);
+  color: whitesmoke;
+  width: 18rem;
+  transition: transform 0.5s;
+}
+
+.card-img-top {
+  height: 20vh;
+}
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.btm {
+  margin-top: 10vh!important;
+  margin-bottom: 7vh!important;
+}
+
+.top {
+  font-family: 'IBM Plex Mono', monospace;
+}
+.mid {
+  background-image: linear-gradient(to bottom right, black 50%, transparent 70%);
+  color: whitesmoke;
+  font-family: 'IBM Plex Mono', monospace;
+}

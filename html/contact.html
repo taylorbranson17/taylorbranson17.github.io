@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>//Let's_Connect!</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../css/contact_style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="setTimeout(typeWriter, 2000)">
+    <nav class="navbar sticky-top navbar-expand-md">
+        <div class="container top-nav mx-auto d-flex flex-row-reverse">
+            <a class="navbar-brand" href="about.html">Taylor Branson</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="menu-button">
+                    <iconify-icon icon="material-symbols:menu-rounded" style="color: white;"></iconify-icon>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="resume.html">Resume</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="projects.html#python">Python</a></li>
+                            <li><a class="dropdown-item" href="projects.html#ux">UX Design</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid main">
+        <div class="container">
+            <div class="row top">
+                <div class="col-md-6 d-flex align-items-center ps-5">
+                    <h2 id="greeting"></h2>
+                </div>
+                <!--             <div class="col-md-6 d-flex justify-content-end">
+                <img class="img-fluid line" src="../images/line.jpg">
+            </div> -->
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>How to reach me:</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Feel free to fill out the form below to shoot me an email, or connect with me
+                        on any social platform @taylorbranson17 :)</p>
+                </div>
+            </div>
+            <form>
+                <div class="row py-3 mb-5">
+                    <div class="col-md-6">
+                        <div class="col-sm-8">
+                            <input type="text" class="form-control my-3" id="FirstName" placeholder="First_Name//">
+                            <input type="text" class="form-control my-3" placeholder="Last_Name//">
+                        </div>
+                        <input type="email" class="form-control" Placeholder="Email//">
+                        <textarea class="form-control my-3" type="text" rows="8"
+                            placeholder="Shoot me a brief message, and maybe a joke or two//"></textarea>
+                        <div class="d-flex flex-row-reverse">
+                            <button class="btn btn-success" type="submit"
+                                onClick="alert('The auto-email function isn\'t quite set up yet. Let\'s connect via social media, or contact me at taylorbranson2000@gmail.com.')">Send
+                                <iconify-icon icon="pajamas:paper-airplane" style="color: white;" width="20">
+                                </iconify-icon>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2">
+                    </div>
+                    <div class="col-md-2 mt-5">
+                        <iconify-icon class="icon m-1 img-fluid" icon="ph:instagram-logo-fill" style="color: #6e6d6b;"
+                            width="105px">
+                        </iconify-icon>
+                        <iconify-icon class="icon m-1 img-fluid" icon="mdi:twitter" style="color: #6e6d6b;"
+                            width="105px">
+                        </iconify-icon>
+                        <iconify-icon class="icon m-1 img-fluid" icon="uiw:linkedin" style="color: #6e6d6b;"
+                            width="105px">
+                        </iconify-icon>
+                    </div>
+            </form>
+            <div class="row py-5">
+                <div class="col-md-6">
+                    <h4 id="collab">Let's grab a coffee!</h4>
+                    <p>If your creative, happen to be in the area, and have ideas for a project or just want to
+                        brainstorm- feel free to reach out to schedule a 'meet-up'. I might even show you one of my
+                        top-secret coffee spots;)</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <iframe class="img-fluid myframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6429750.750943319!2d-110.68797922217034!3d43.23447359500192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53487d3c11795ab1%3A0x26cdafcd459c70f1!2sCity%20College%20at%20Montana%20State%20University%20Billings!5e0!3m2!1sen!2sus!4v1670701672337!5m2!1sen!2sus"
+                        width="450" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="../js/index_js.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+
+    <script>
+        var el = document.getElementById('greeting')
+        var msg1 = '>//Let\'s_Connect!//'
+        var speed = 110
+        i = 0
+
+        function typeWriter() {
+            if (i < msg1.length) {
+                el.innerHTML += msg1.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+
+            }
+        }
+    </script>
+</body>
+
+</html>
